@@ -41,7 +41,7 @@ public class PaymentService {
 		options.put("receipt", "txn_123456");
 		Order order = razorpayClient.Orders.create(options);
 	    //save this order in a repository
-		
+		System.out.println(order);
 		
 		JSONObject orderData = new JSONObject();
 		orderData.put("key", this.keyId);

@@ -58,8 +58,4 @@ public class PaymentController {
 		message.put("value", "Payment Status updated from pending to complete");
 		return message.toString();
 	}
-	
-	
-	
-	
 }
